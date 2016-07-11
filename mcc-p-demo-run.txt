@@ -1,0 +1,96 @@
+
+
+antti@antti-HP-630-Notebook-PC:~/ShenANN$ ./Shen
+
+Shen, copyright (C) 2010-2015 Mark Tarver
+www.shenlanguage.org, Shen 19.2
+running under Common Lisp, implementation: CLisp
+port 1.9 ported by Mark Tarver
+
+
+(0-) (load "defstruct.shen")
+defstruct.type#struct-type
+defstruct.char-upcase
+defstruct.string-capitalize
+defstruct.sym-capitalize
+defstruct.slot-type
+defstruct.slots-types
+defstruct.slots-defs
+defstruct.datatypes
+defstruct.accessors
+defstruct.setters
+defstruct.constructor-type
+defstruct.constr-init
+defstruct.constructor
+defstruct.struct-aux
+defstruct-macro
+
+run time: 0.7919999919831753 secs
+loaded
+
+(1-) (load "mcc-p.shen")
+type#neuron1
+mk-neuron1
+neuron1-neuron-output->
+neuron1-threshold-function->
+neuron1-activation-level->
+neuron1-weights-vec->
+neuron1-inputs-vec->
+neuron1-nr-inputs->
+neuron1-neuron-output
+neuron1-threshold-function
+neuron1-activation-level
+neuron1-weights-vec
+neuron1-inputs-vec
+neuron1-nr-inputs
+transfer-function
+activation-level-aux
+activation-level-aux-h
+tres-f
+<3 <... ... ...> <... ... ...> 0 #<FUNCTION LAMBDA (V1616) (tres-f V1616)> 0>
+<3 <0 0 1> <... ... ...> 0 #<FUNCTION LAMBDA (V1616) (tres-f V1616)> 0>
+<3 <0 0 1> <-1 1 0> 0 #<FUNCTION LAMBDA (V1616) (tres-f V1616)> 0>
+ann-demo
+
+run time: 1.4439998865127563 secs
+loaded
+
+(2-) (ann-demo)
+
+Give A: 1
+
+Give B: 1
+
+Output of neuron: 1
+[]
+
+(3-) (ann-demo)
+
+Give A: 1
+
+Give B: 0
+
+Output of neuron: -1
+[]
+
+(4-) (ann-demo)
+
+Give A: 0
+
+Give B: 1
+
+Output of neuron: 1
+[]
+
+(5-) (ann-demo)
+
+Give A: 0
+
+Give B: 0
+
+Output of neuron: 1
+[]
+
+(6-) (QUIT)
+antti@antti-HP-630-Notebook-PC:~/ShenANN$
+
